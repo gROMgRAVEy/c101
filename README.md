@@ -1,5 +1,5 @@
 # c101
-the code in this repo is not professional al all.
+the code in this repo is not professional at all.
 
 the best way to learn a new skill is by doing.
 
