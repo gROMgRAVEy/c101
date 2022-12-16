@@ -31,6 +31,8 @@ int main() {
 						 //a pointer to the same adress is the closest thing to a java alias
 	
 	int a = 5, *b = &a;
+	//int a =5 ,b;
+	//&b = &a; this dose not work. it has to be a pointer
 	printf("\"declariring b as alias to a\"\nprinting b and a %i %i\n",*b,a);
         return 1;
 }
