@@ -13,11 +13,7 @@ int points[3] = {'0','0','0'};
 //.---.-.-...---.-.__.-^^^--.--^-
 int main() 
 {
-	register int i = 0;
-        while ((points[i] = getchar()) != EOF)
-	{
-        	i = (i + 1 < 3) ? i + 1 : 0; //i feel like there is a place to put this maybe in a for loop?
-					     //just to have no braces on the wile loop.
+        for(register int i = 0; (points[i] = getchar()) != EOF; i = (i + 1 < 3) ? i + 1 : 0) //it fit in a for loop >:D
 		switch(points[0]+points[1]+points[+2])
 		{
 			//i wanted to do something like `case static '0' + '0' + '0';` so it only gets evlauated once. maybe the c compiler dose that already?
@@ -35,8 +31,6 @@ int main()
 				printf("^");
 				break;
 		}
-
-        }
 
         return 1;
 }
