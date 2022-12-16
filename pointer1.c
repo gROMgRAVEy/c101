@@ -2,8 +2,10 @@
 
 int main() {
   // int *nums[10] , total = 10, x = y = 3; huh i really thought i read
-  // something in ansi c book where u can declair and set varable like this `int
-  // x = y = 1;`
+  // something in ansi c book where u can declair and set varable like this `int x = y = 1;`
+  
+  // turns out what i read it was declared on one line then set on the next `int a , b; 
+  // 									     a = b = 6;`
   int *pnums[10], total = 10, x, y = x = 3;
 	
   	printf("setting array of pointers to the counter\n");
