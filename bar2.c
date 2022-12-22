@@ -27,5 +27,5 @@ int main()
 				printf("^");
 		}
 
-        return 1;
+        return 0;
 }

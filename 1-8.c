@@ -10,5 +10,5 @@ int main()
 	//this is also so cool as you can just pipe in text.
 	//echo "test this out" | ./a.out
 	//there are : 3 blank spaces
-	return 1;
+	return 0;
 }

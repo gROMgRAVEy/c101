@@ -34,5 +34,5 @@ int main() {
 	//int a =5 ,b;
 	//&b = &a; this dose not work. it has to be a pointer
 	printf("\"declariring b as alias to a\"\nprinting b and a %i %i\n",*b,a);
-        return 1;
+        return 0;
 }
