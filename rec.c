@@ -22,4 +22,13 @@ int main()
 	return 0;
 }
 
-//i think this is baby example of recurestion, i just cant think of something to write out
+//here is example i can think of recurestion being really helpful.
+//
+//openAllDirs(dir mydir)
+//{
+//	dirList = listdir(mydir); //stores array dirs in dirlist.
+//	for(i,x in(dirlist)))	  //if there is more dirs inside, start opening them
+//		openAllDirs(x);
+//	print(ls(mydir));	  //after opening all the dirs, print out the contens of the dir
+//}
+//sorry for this shitty half lua half c psudo code
