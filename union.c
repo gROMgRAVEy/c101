@@ -7,7 +7,7 @@ struct cat
 }catter;
 
 
-union {
+union utype{
 	int myInt;
 	double *pMyDouble;
 	struct cat neko;
@@ -34,8 +34,12 @@ int main(int argc, char *argv[])
 	//all members have the offest of 0 from the union structer.
 	//so thats why i was able to do these wacky thing. i dont belive there to be a speed benifite
 	
-	//(int)u = 5; cant seem to type cast it like how i wanted
 	
+	//(int)u = 5; cant seem to type cast it like how i wanted
+	u = (union utype)123; //utype? more like universal type
+	printf("%i\n",u);
+	//idc what my friend says. this is amazing
+
 	u.myInt = 5;
 	printf("normal use %i\n",u.myInt);
 
